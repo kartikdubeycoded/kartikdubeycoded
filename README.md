@@ -1,10 +1,15 @@
+### Kartik Dubey
 
+Final-year B.Tech Data Science at Manipal University Jaipur. Based in Navi Mumbai, India.
 
- Kartik Dubey
+I build AI application systems — multi-agent orchestration, RAG pipelines, and
+knowledge-graph retrieval. I design end-to-end first, then write the code that makes
+the architecture real.
 
-Final-year B.Tech Data Science at Manipal University Jaipur. Based in Navi Mumbai.
+**Currently**
 
-I build AI application systems — multi-agent orchestration, RAG pipelines, and knowledge-graph retrieval. I design end-to-end first, then write the code that makes the architecture real.
+- Building a personal multi-agent system and an open workshop for agentic builds.
+- Sharpening data structures, system design, and production ML.
 
 **Featured work**
 
@@ -14,15 +19,16 @@ I build AI application systems — multi-agent orchestration, RAG pipelines, and
 - **[portfolio-ed-](https://github.com/kartikdubeycoded/portfolio-ed-)** — Cinematic,
   scroll-driven site with a procedural Three.js dove. GSAP, Lenis, Vite.
 
-**Working with** &nbsp; Python · RAG · vector DBs (Chroma, Qdrant) · local LLMs (GGUF/llama.cpp) · Three.js · Git
+**Tech** &nbsp; Python · RAG · vector DBs (Chroma, Qdrant) · local LLMs (GGUF / llama.cpp) · Three.js · Git
 
-Reach me: kartikdubey1934@gmail.com
+**Reach me** &nbsp; [Email](mailto:kartikdubey1934@gmail.com) · [LinkedIn](https://www.linkedin.com/in/kartik-dubey-80b100293) · [Website](https://portfolio-ed-a79.pages.dev)
 
 ---
 
 <div align="center">
 
 ![stats](https://github-readme-stats.vercel.app/api?username=kartikdubeycoded&show_icons=true&hide_border=true&count_private=true&theme=transparent)
+&nbsp;
+![top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kartikdubeycoded&layout=compact&hide_border=true&count_private=true&theme=transparent)
 
 </div>
-
