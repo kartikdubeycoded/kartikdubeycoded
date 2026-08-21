@@ -1,28 +1,71 @@
 <svg width="1280" height="360" viewBox="0 0 1280 360" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#05080B"/><stop offset="1" stop-color="#0A1016"/></linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
   <rect width="1280" height="360" fill="url(#bg)"/>
   <line x1="64" y1="0" x2="64" y2="336" stroke="#121922" stroke-width="1"/><line x1="128" y1="0" x2="128" y2="336" stroke="#121922" stroke-width="1"/><line x1="192" y1="0" x2="192" y2="336" stroke="#121922" stroke-width="1"/><line x1="256" y1="0" x2="256" y2="336" stroke="#121922" stroke-width="1"/><line x1="320" y1="0" x2="320" y2="336" stroke="#121922" stroke-width="1"/><line x1="384" y1="0" x2="384" y2="336" stroke="#121922" stroke-width="1"/><line x1="448" y1="0" x2="448" y2="336" stroke="#121922" stroke-width="1"/><line x1="512" y1="0" x2="512" y2="336" stroke="#121922" stroke-width="1"/><line x1="576" y1="0" x2="576" y2="336" stroke="#121922" stroke-width="1"/><line x1="640" y1="0" x2="640" y2="336" stroke="#121922" stroke-width="1"/><line x1="704" y1="0" x2="704" y2="336" stroke="#121922" stroke-width="1"/><line x1="768" y1="0" x2="768" y2="336" stroke="#121922" stroke-width="1"/><line x1="832" y1="0" x2="832" y2="336" stroke="#121922" stroke-width="1"/><line x1="896" y1="0" x2="896" y2="336" stroke="#121922" stroke-width="1"/><line x1="960" y1="0" x2="960" y2="336" stroke="#121922" stroke-width="1"/><line x1="1024" y1="0" x2="1024" y2="336" stroke="#121922" stroke-width="1"/><line x1="1088" y1="0" x2="1088" y2="336" stroke="#121922" stroke-width="1"/><line x1="1152" y1="0" x2="1152" y2="336" stroke="#121922" stroke-width="1"/><line x1="1216" y1="0" x2="1216" y2="336" stroke="#121922" stroke-width="1"/><line x1="0" y1="64" x2="1280" y2="64" stroke="#121922" stroke-width="1"/><line x1="0" y1="128" x2="1280" y2="128" stroke="#121922" stroke-width="1"/><line x1="0" y1="192" x2="1280" y2="192" stroke="#121922" stroke-width="1"/><line x1="0" y1="256" x2="1280" y2="256" stroke="#121922" stroke-width="1"/><line x1="0" y1="320" x2="1280" y2="320" stroke="#121922" stroke-width="1"/>
-  <text x="64" y="56" font-family="ui-monospace,Consolas,monospace" font-size="21" fill="#5C6773">kartik@katti-os:~$</text>
-  <text x="64" y="176" font-family="ui-monospace,Consolas,monospace" font-size="96" font-weight="700" fill="#6FE7CE" filter="url(#glow)">katti-os</text>
-  <text x="452" y="176" font-family="ui-monospace,Consolas,monospace" font-size="96" font-weight="700" fill="#E6EDF3"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>_</text>
-  <text x="66" y="222" font-family="ui-monospace,Consolas,monospace" font-size="25" fill="#8B98A5">&gt; building the personal operating system — ai · data · systems</text>
-  <g opacity="0.85">
-    <circle cx="1000" cy="165" r="72" fill="none" stroke="#6FE7CE" stroke-width="2"/>
-    <circle cx="1000" cy="165" r="88" fill="none" stroke="#6FE7CE" stroke-width="1" opacity="0.35"/>
-    <circle cx="1000" cy="165" r="16" fill="#6FE7CE"/>
-    <g><circle r="7" fill="#6FE7CE"><animateMotion dur="9s" repeatCount="indefinite" path="M 1000 93 a 72 72 0 1 0 0 144 a 72 72 0 1 0 0 -144"/></circle></g>
-    <g><circle r="5" fill="#6FE7CE" opacity="0.7"><animateMotion dur="9s" repeatCount="indefinite" begin="-4.5s" path="M 1000 93 a 72 72 0 1 0 0 144 a 72 72 0 1 0 0 -144"/></circle></g>
-    <circle cx="880" cy="80" r="3" fill="#6FE7CE" opacity="0.5"/>
-    <circle cx="1120" cy="230" r="3" fill="#6FE7CE" opacity="0.5"/>
-    <circle cx="860" cy="250" r="2" fill="#6FE7CE" opacity="0.4"/>
-    <circle cx="1140" cy="90" r="2" fill="#6FE7CE" opacity="0.4"/>
+  <text x="64" y="54" font-family="ui-monospace, Consolas, monospace" font-size="20" fill="#5C6773">kartik@katti-os:~$</text>
+  <text x="64" y="178" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="102" font-weight="600" fill="#6FE7CE" filter="url(#glow)">katti-os</text>
+  <text x="386" y="178" font-family="ui-monospace, Consolas, monospace" font-size="102" fill="#F2F6F4"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>_</text>
+  <text x="66" y="228" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="27" font-style="italic" fill="#F2F6F4">building the personal operating system</text>
+  <text x="66" y="260" font-family="ui-monospace, Consolas, monospace" font-size="17" fill="#5C6773">— ai · data · systems — navi mumbai</text>
+  <g>
+  <g><animateTransform attributeName="transform" type="rotate" from="0 1000 168" to="360 1000 168" dur="48s" repeatCount="indefinite"/>
+  <circle cx="1000" cy="168" r="76" fill="none" stroke="#6FE7CE" stroke-width="1" opacity="0.28"/>
+  <circle cx="1000" cy="168" r="47.12" fill="none" stroke="#6FE7CE" stroke-width="0.8" opacity="0.18"/>
+  <line x1="1031.0" y1="181.3" x2="1031.0" y2="108.4" stroke="#6FE7CE" stroke-width="1" opacity="0.56"/>
+  <line x1="1031.0" y1="181.3" x2="1035.1" y2="234.8" stroke="#6FE7CE" stroke-width="1" opacity="0.52"/>
+  <line x1="1031.0" y1="181.3" x2="964.9" y2="219.2" stroke="#6FE7CE" stroke-width="1" opacity="0.57"/>
+  <line x1="1031.0" y1="181.3" x2="1075.9" y2="166.3" stroke="#6FE7CE" stroke-width="1" opacity="0.51"/>
+  <line x1="1031.0" y1="181.3" x2="962.4" y2="141.1" stroke="#6FE7CE" stroke-width="1" opacity="0.60"/>
+  <line x1="1031.0" y1="108.4" x2="1035.1" y2="116.8" stroke="#6FE7CE" stroke-width="1" opacity="0.38"/>
+  <line x1="1031.0" y1="108.4" x2="964.9" y2="101.2" stroke="#6FE7CE" stroke-width="1" opacity="0.43"/>
+  <line x1="1031.0" y1="108.4" x2="1075.9" y2="166.3" stroke="#6FE7CE" stroke-width="1" opacity="0.45"/>
+  <line x1="1031.0" y1="108.4" x2="962.4" y2="141.1" stroke="#6FE7CE" stroke-width="1" opacity="0.55"/>
+  <line x1="969.0" y1="227.6" x2="969.0" y2="154.7" stroke="#6FE7CE" stroke-width="1" opacity="0.22"/>
+  <line x1="969.0" y1="227.6" x2="1035.1" y2="234.8" stroke="#6FE7CE" stroke-width="1" opacity="0.35"/>
+  <line x1="969.0" y1="227.6" x2="964.9" y2="219.2" stroke="#6FE7CE" stroke-width="1" opacity="0.40"/>
+  <line x1="969.0" y1="227.6" x2="1037.6" y2="194.9" stroke="#6FE7CE" stroke-width="1" opacity="0.23"/>
+  <line x1="969.0" y1="227.6" x2="924.1" y2="169.7" stroke="#6FE7CE" stroke-width="1" opacity="0.33"/>
+  <line x1="969.0" y1="154.7" x2="1035.1" y2="116.8" stroke="#6FE7CE" stroke-width="1" opacity="0.21"/>
+  <line x1="969.0" y1="154.7" x2="964.9" y2="101.2" stroke="#6FE7CE" stroke-width="1" opacity="0.26"/>
+  <line x1="969.0" y1="154.7" x2="1037.6" y2="194.9" stroke="#6FE7CE" stroke-width="1" opacity="0.18"/>
+  <line x1="969.0" y1="154.7" x2="924.1" y2="169.7" stroke="#6FE7CE" stroke-width="1" opacity="0.27"/>
+  <line x1="1035.1" y1="234.8" x2="964.9" y2="219.2" stroke="#6FE7CE" stroke-width="1" opacity="0.48"/>
+  <line x1="1035.1" y1="234.8" x2="1075.9" y2="166.3" stroke="#6FE7CE" stroke-width="1" opacity="0.41"/>
+  <line x1="1035.1" y1="234.8" x2="1037.6" y2="194.9" stroke="#6FE7CE" stroke-width="1" opacity="0.31"/>
+  <line x1="964.9" y1="219.2" x2="962.4" y2="141.1" stroke="#6FE7CE" stroke-width="1" opacity="0.56"/>
+  <line x1="964.9" y1="219.2" x2="924.1" y2="169.7" stroke="#6FE7CE" stroke-width="1" opacity="0.46"/>
+  <line x1="1035.1" y1="116.8" x2="964.9" y2="101.2" stroke="#6FE7CE" stroke-width="1" opacity="0.30"/>
+  <line x1="1035.1" y1="116.8" x2="1075.9" y2="166.3" stroke="#6FE7CE" stroke-width="1" opacity="0.32"/>
+  <line x1="1035.1" y1="116.8" x2="1037.6" y2="194.9" stroke="#6FE7CE" stroke-width="1" opacity="0.22"/>
+  <line x1="964.9" y1="101.2" x2="962.4" y2="141.1" stroke="#6FE7CE" stroke-width="1" opacity="0.47"/>
+  <line x1="964.9" y1="101.2" x2="924.1" y2="169.7" stroke="#6FE7CE" stroke-width="1" opacity="0.37"/>
+  <line x1="1075.9" y1="166.3" x2="1037.6" y2="194.9" stroke="#6FE7CE" stroke-width="1" opacity="0.30"/>
+  <line x1="962.4" y1="141.1" x2="924.1" y2="169.7" stroke="#6FE7CE" stroke-width="1" opacity="0.48"/>
+  <circle cx="1031.0" cy="181.3" r="2" fill="#6FE7CE" opacity="0.97"/>
+  <circle cx="1031.0" cy="108.4" r="2" fill="#6FE7CE" opacity="0.87"/>
+  <circle cx="969.0" cy="227.6" r="2" fill="#6FE7CE" opacity="0.63"/>
+  <circle cx="969.0" cy="154.7" r="2" fill="#6FE7CE" opacity="0.53"/>
+  <circle cx="1035.1" cy="234.8" r="2" fill="#6FE7CE" opacity="0.78"/>
+  <circle cx="964.9" cy="219.2" r="2" fill="#6FE7CE" opacity="0.89"/>
+  <circle cx="1035.1" cy="116.8" r="2" fill="#6FE7CE" opacity="0.61"/>
+  <circle cx="964.9" cy="101.2" r="2" fill="#6FE7CE" opacity="0.72"/>
+  <circle cx="1075.9" cy="166.3" r="2" fill="#6FE7CE" opacity="0.76"/>
+  <circle cx="962.4" cy="141.1" r="2" fill="#6FE7CE" opacity="0.95"/>
+  <circle cx="1037.6" cy="194.9" r="2" fill="#6FE7CE" opacity="0.55"/>
+  <circle cx="924.1" cy="169.7" r="2" fill="#6FE7CE" opacity="0.74"/>
   </g>
-  <rect y="336" width="1280" height="24" fill="#0D1117"/>
+  <circle cx="1000" cy="168" r="13" fill="#6FE7CE"><animate attributeName="opacity" values="0.85;0.6;0.85" dur="6s" repeatCount="indefinite"/></circle>
+  <circle cx="902" cy="130" r="2.2" fill="#6FE7CE" opacity="0.6"><animate attributeName="opacity" values="0.6;0.15;0.6" dur="3.1s" repeatCount="indefinite"/></circle>
+  <circle cx="1094" cy="198.4" r="2.2" fill="#6FE7CE" opacity="0.5"><animate attributeName="opacity" values="0.5;0.125;0.5" dur="4.2s" repeatCount="indefinite"/></circle>
+  <circle cx="1030.4" cy="72" r="2.2" fill="#6FE7CE" opacity="0.55"><animate attributeName="opacity" values="0.55;0.1375;0.55" dur="2.6s" repeatCount="indefinite"/></circle>
+  <circle cx="977.2" cy="260" r="2.2" fill="#6FE7CE" opacity="0.45"><animate attributeName="opacity" values="0.45;0.1125;0.45" dur="3.7s" repeatCount="indefinite"/></circle>
+  </g>
+  <rect y="336" width="1280" height="24" fill="#0B1014"/>
   <line x1="0" y1="336" x2="1280" y2="336" stroke="#1B222C" stroke-width="1"/>
   <circle cx="22" cy="348" r="4" fill="#3FB950"/>
-  <text x="36" y="353" font-family="ui-monospace,Consolas,monospace" font-size="14" fill="#5C6773">online · open to work</text>
-  <text x="1244" y="353" text-anchor="end" font-family="ui-monospace,Consolas,monospace" font-size="14" fill="#5C6773">v2.6.0 · navi mumbai</text>
+  <text x="36" y="353" font-family="ui-monospace, Consolas, monospace" font-size="14" fill="#5C6773">online · open to work</text>
+  <text x="1244" y="353" text-anchor="end" font-family="ui-monospace, Consolas, monospace" font-size="14" fill="#5C6773">v2.6.0</text>
 </svg>

@@ -20,7 +20,7 @@ katti-os v2.6.0 — boot sequence
 > status     : [online] · open to work
 ```
 
-### ▶ projects
+### projects
 
 <table align="center" cellpadding="8" cellspacing="0">
   <tr>
@@ -41,7 +41,7 @@ katti-os v2.6.0 — boot sequence
 </table>
 
 <details>
-<summary><b>📦 more</b></summary>
+<summary><b>more</b></summary>
 
 ```
 - ugh-boardroom        — multi-agent boardroom UI prototype
@@ -52,7 +52,7 @@ katti-os v2.6.0 — boot sequence
 </details>
 
 <details>
-<summary><b>🧩 sysinfo — stack</b></summary>
+<summary><b>sysinfo — stack</b></summary>
 
 ```
 llm/rag : python · langgraph · langchain · qdrant · neo4j · ollama/qwen
@@ -66,7 +66,7 @@ systems  : git · docker · linux · github actions · cloudflare pages
 </details>
 
 <details>
-<summary><b>📊 stats</b></summary>
+<summary><b>stats</b></summary>
 
 ```
 > open_source : 9 public repos · 3 private in build
@@ -77,7 +77,7 @@ systems  : git · docker · linux · github actions · cloudflare pages
 </details>
 
 <details>
-<summary><b>🌐 network</b></summary>
+<summary><b>network</b></summary>
 
 ```
 > portfolio : https://portfolio-ed-a.pages.dev
