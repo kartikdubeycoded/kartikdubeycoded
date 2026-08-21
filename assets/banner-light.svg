@@ -7,7 +7,7 @@
     <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
     _
   </text>
-  <text x="48" y="196" font-family="JetBrains Mono, Consolas, monospace" font-size="26" fill="#4B5563">&gt; personal system — data science · ai engineering · systems architecture</text>
+  <text x="48" y="196" font-family="JetBrains Mono, Consolas, monospace" font-size="26" fill="#4B5563">&gt; building the personal operating system — ai · data · systems</text>
   <text x="48" y="272" font-family="JetBrains Mono, Consolas, monospace" font-size="22" fill="#0E9F80">v2.6.0</text>
   <text x="1232" y="272" text-anchor="end" font-family="JetBrains Mono, Consolas, monospace" font-size="22" fill="#6B7280">© kartik dubey · navi mumbai</text>
 </svg>
