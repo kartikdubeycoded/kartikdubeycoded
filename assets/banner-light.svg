@@ -1,0 +1,13 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="320" fill="#F6F5F1"/>
+  <rect x="0" y="318" width="1280" height="2" fill="#0E9F80" opacity="0.4"/>
+  <text x="48" y="64" font-family="JetBrains Mono, Consolas, monospace" font-size="22" fill="#6B7280">kartik@katti-os:~$</text>
+  <text x="48" y="150" font-family="JetBrains Mono, Consolas, monospace" font-size="96" font-weight="700" fill="#0E9F80">katti-os</text>
+  <text x="443" y="150" font-family="JetBrains Mono, Consolas, monospace" font-size="96" font-weight="700" fill="#12161B">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+    _
+  </text>
+  <text x="48" y="196" font-family="JetBrains Mono, Consolas, monospace" font-size="26" fill="#4B5563">&gt; personal system — data science · ai engineering · systems architecture</text>
+  <text x="48" y="272" font-family="JetBrains Mono, Consolas, monospace" font-size="22" fill="#0E9F80">v2.6.0</text>
+  <text x="1232" y="272" text-anchor="end" font-family="JetBrains Mono, Consolas, monospace" font-size="22" fill="#6B7280">© kartik dubey · navi mumbai</text>
+</svg>
