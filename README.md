@@ -1,34 +1,75 @@
-### Kartik Dubey
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
+    <img src="./assets/banner-dark.svg" width="100%" alt="katti-os — personal system">
+  </picture>
+</p>
 
-Final-year B.Tech Data Science at Manipal University Jaipur. Based in Navi Mumbai, India.
+```
+katti-os v2.6.0 — boot sequence
+[▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░] loading kernel ............ OK
+[▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░] mounting workspaces ....... OK
+[▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░] starting services ......... OK
 
-I build AI application systems — multi-agent orchestration, RAG pipelines, and
-knowledge-graph retrieval. I design end-to-end first, then write the code that makes
-the architecture real.
-
-**Currently**
-
-- Building a personal multi-agent system and an open workshop for agentic builds.
-- Sharpening data structures, system design, and production ML.
-
-**Featured work**
-
-- **[repair-chatbot](https://github.com/kartikdubeycoded/repair-chatbot)** — Offline,
-  context-aware RAG over 18,995 repair manuals. Qwen 2.5 3B, Chroma, sentence-transformers.
-  Runs fully local, no API keys.
-- **[portfolio-ed-](https://github.com/kartikdubeycoded/portfolio-ed-)** — Cinematic,
-  scroll-driven site with a procedural Three.js dove. GSAP, Lenis, Vite.
-
-**Tech** &nbsp; Python · RAG · vector DBs (Chroma, Qdrant) · local LLMs (GGUF / llama.cpp) · Three.js · Git
-
-**Reach me** &nbsp; [Email](mailto:kartikdubey1934@gmail.com) · [LinkedIn](https://www.linkedin.com/in/kartik-dubey-80b100293) · [Website](https://portfolio-ed-a79.pages.dev)
+> user       : kartik dubey
+> profile    : data scientist · ai engineer · systems architect
+> location   : navi mumbai, india
+> experience : tcs · reliance · independent
+> focus      : agentic rag · llm systems · interactive data products
+> status     : [online] · open to work
+```
 
 ---
 
-<div align="center">
+### ▶ running services
 
-![stats](https://github-readme-stats.vercel.app/api?username=kartikdubeycoded&show_icons=true&hide_border=true&count_private=true&theme=transparent)
-&nbsp;
-![top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kartikdubeycoded&layout=compact&hide_border=true&count_private=true&theme=transparent)
+| service | status | log |
+|---|---|---|
+| [portfolio-ed-](https://github.com/kartikdubeycoded/portfolio-ed-) | 🟢 live | cinematic scroll portfolio · three.js + gsap + vite → [portfolio-ed-a.pages.dev](https://portfolio-ed-a.pages.dev) |
+| [agentic-rag-engine](https://github.com/kartikdubeycoded/agentic-rag-engine) | 🟡 dev | offline-first agentic RAG for industrial field engineers · langgraph + qdrant + neo4j |
+| [repair-chatbot](https://github.com/kartikdubeycoded/repair-chatbot) | 🟡 dev | context-aware RAG chatbot over 18,995 repair manuals · qwen · offline |
+| [ugh-boardroom](https://github.com/kartikdubeycoded/ugh-boardroom) | 🟡 prototype | multi-agent boardroom — four personas deliberate a business dilemma |
+| [TTM-Talk-Through-Me](https://github.com/kartikdubeycoded/TTM-Talk-Through-Me) | 🟡 dev | talk-through-me · speech interface in progress |
+| [getyour-kb-right](https://github.com/kartikdubeycoded/getyour-kb-right) | 🟡 dev | knowledge-base workbench in progress |
 
-</div>
+<details>
+<summary><b>🧩 sysinfo — stack</b></summary>
+
+```
+llm/rag : python · langgraph · langchain · qdrant · neo4j · ollama/qwen
+ml       : pandas · numpy · scikit-learn · statistical modeling (churn, eda)
+data     : sql · bigquery · spark
+web/3d   : javascript · three.js · gsap · vite · matter-js · css
+systems  : git · docker · linux · github actions · cloudflare pages
+```
+</details>
+
+<details>
+<summary><b>📊 stats</b></summary>
+
+```
+> total_commits    : growing daily
+> open_source      : 9 public repos
+> contributions    : building in public — steady > bursty
+> note             : half the fleet is in active development, shipping as it matures
+```
+
+<img src="./profile-3d-contrib-profile-season-animate.svg" width="80%" alt="3D contribution calendar">
+</details>
+
+<details>
+<summary><b>🌐 network</b></summary>
+
+```
+> portfolio : https://portfolio-ed-a.pages.dev
+> linkedin  : https://www.linkedin.com/in/<your-handle>
+> x         : https://x.com/<your-handle>
+> email     : <your-email>@gmail.com
+> hireable  : true — open to data science / AI engineering roles
+```
+</details>
+
+---
+
+<p align="center"><sub>last boot: <!--BOOT:START-->21 aug 2026, 12:00 ist<!--BOOT:END--> · <img src="https://komarev.com/ghpvc/?username=kartikdubeycoded&style=flat&color=313131&label=profile_views&abbreviated=true" alt="profile views"></sub></p>
