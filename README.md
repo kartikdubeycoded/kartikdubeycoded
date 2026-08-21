@@ -22,23 +22,30 @@ katti-os v2.6.0 — boot sequence
 
 ---
 
-### ▶ running services — katti-os subsystems
+### ▶ projects
 
-| subsystem | tier | status | log |
+| # | project | status | log |
 |---|---|---|---|
-| [katti-os](https://github.com/kartikdubeycoded) | core | 🟢 in build | the personal operating system — this README is its boot screen |
-| [portfolio-ed-](https://github.com/kartikdubeycoded/portfolio-ed-) | interface | 🟢 live | cinematic scroll portfolio · three.js + gsap + vite → [portfolio-ed-a.pages.dev](https://portfolio-ed-a.pages.dev) |
-| [agentic-rag-engine](https://github.com/kartikdubeycoded/agentic-rag-engine) | subsystem | 🟡 dev | offline-first agentic RAG for industrial field engineers · langgraph + qdrant + neo4j |
-| leads engine | subsystem | 🟡 in build | lead discovery + scoring — repo goes public on ship |
-| job-search tracker | subsystem | 🟡 in build | job pipeline + application tracker — repo goes public on ship |
-| [getyour-kb-right](https://github.com/kartikdubeycoded/getyour-kb-right) | subsystem | 🟡 dev | personal knowledge engine — ranks repos/papers/news against your topics, proposes what to build, digests to your phone |
-| video pipeline | subsystem | 🟡 in build | free video generation + auto-clipping — repo goes public on ship |
-| [Jay](https://github.com/kartikdubeycoded/Jay) | subsystem | 🟡 dev · private | local-first control plane for LLM coding agents — permissions, bounded context, human-in-the-loop on spend |
-| [repair-chatbot](https://github.com/kartikdubeycoded/repair-chatbot) | subsystem | 🟡 dev | context-aware RAG over 18,995 repair manuals · qwen · fully local |
-| [TTM-Talk-Through-Me](https://github.com/kartikdubeycoded/TTM-Talk-Through-Me) | subsystem | 🟡 dev | live sign-language → English on video calls · in-browser, private by design |
-| [ugh-boardroom](https://github.com/kartikdubeycoded/ugh-boardroom) | subsystem | 🟡 prototype | multi-agent boardroom — four personas deliberate a business dilemma |
-| [BUDDY](https://github.com/kartikdubeycoded/BUDDY) | subsystem | 🟡 dev | ducted-fan aircraft rig · parametric openscad + python propulsion/control solvers |
-| [ARMenuX / GetYourOrderRight](https://github.com/kartikdubeycoded/GetYourOrderRight) | client work | 🔵 private | AR restaurant menu pitch demo — QR → 3D dishes on the table, no app install |
+| 1 | [katti-os / Jay](https://github.com/kartikdubeycoded/Jay) | 🟢 core | the personal operating system — agent control plane, subsystems, this README |
+| 2 | [portfolio-ed-](https://github.com/kartikdubeycoded/portfolio-ed-) | 🟢 live | cinematic scroll portfolio · three.js + gsap + vite → [portfolio-ed-a.pages.dev](https://portfolio-ed-a.pages.dev) |
+| 3 | Leads Engine | 🟡 in build | lead discovery + scoring |
+| 4 | Job Search | 🟡 in build | job pipeline + application tracker |
+| 5 | [GetYourKB](https://github.com/kartikdubeycoded/getyour-kb-right) | 🟡 dev | knowledge engine — repos/papers/news → ranked, proposals, phone digest |
+| 6 | [TTM — Talk Through Me](https://github.com/kartikdubeycoded/TTM-Talk-Through-Me) | 🟡 dev | sign language → English, in-browser, private by design |
+| 7 | [Repair Chatbot](https://github.com/kartikdubeycoded/repair-chatbot) | 🟡 dev | RAG over 18,995 repair manuals · fully local |
+| 8 | [BUDDY](https://github.com/kartikdubeycoded/BUDDY) | 🟡 dev | ducted-fan aircraft rig · openscad + python solvers |
+| 9 | WebStudios | 🟡 in build | web studio — client sites & product builds |
+
+<details>
+<summary><b>📦 more</b></summary>
+
+```
+- ugh-boardroom      — multi-agent boardroom UI prototype
+- video pipeline     — free video generation + auto-clipping
+- ARMenuX            — AR restaurant menu (client work, private)
+- get-your-hands-right — placeholder (reserved)
+```
+</details>
 
 <details>
 <summary><b>🧩 sysinfo — stack</b></summary>
@@ -58,9 +65,8 @@ systems  : git · docker · linux · github actions · cloudflare pages
 <summary><b>📊 stats</b></summary>
 
 ```
-> open_source      : 9 public repos · 3 private in build
-> contributions    : building in public — steady > bursty
-> status           : core + subsystems shipping as they mature
+> open_source : 9 public repos · 3 private in build
+> status      : core + subsystems shipping as they mature
 ```
 
 <img src="./profile-3d-contrib/profile-season-animate.svg" width="80%" alt="3D contribution calendar">
