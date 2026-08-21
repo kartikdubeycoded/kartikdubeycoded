@@ -55,7 +55,7 @@ systems  : git · docker · linux · github actions · cloudflare pages
 > note             : half the fleet is in active development, shipping as it matures
 ```
 
-<img src="./profile-3d-contrib-profile-season-animate.svg" width="80%" alt="3D contribution calendar">
+<img src="./profile-3d-contrib/profile-season-animate.svg" width="80%" alt="3D contribution calendar">
 </details>
 
 <details>
