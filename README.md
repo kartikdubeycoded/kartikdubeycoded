@@ -20,29 +20,33 @@ katti-os v2.6.0 — boot sequence
 > status     : [online] · open to work
 ```
 
----
-
 ### ▶ projects
 
-| # | project | status | log |
-|---|---|---|---|
-| 1 | [katti-os / Jay](https://github.com/kartikdubeycoded/Jay) | 🟢 core | the personal operating system — agent control plane, subsystems, this README |
-| 2 | [portfolio-ed-](https://github.com/kartikdubeycoded/portfolio-ed-) | 🟢 live | cinematic scroll portfolio · three.js + gsap + vite → [portfolio-ed-a.pages.dev](https://portfolio-ed-a.pages.dev) |
-| 3 | Leads Engine | 🟡 in build | lead discovery + scoring |
-| 4 | Job Search | 🟡 in build | job pipeline + application tracker |
-| 5 | [GetYourKB](https://github.com/kartikdubeycoded/getyour-kb-right) | 🟡 dev | knowledge engine — repos/papers/news → ranked, proposals, phone digest |
-| 6 | [TTM — Talk Through Me](https://github.com/kartikdubeycoded/TTM-Talk-Through-Me) | 🟡 dev | sign language → English, in-browser, private by design |
-| 7 | [Repair Chatbot](https://github.com/kartikdubeycoded/repair-chatbot) | 🟡 dev | RAG over 18,995 repair manuals · fully local |
-| 8 | [BUDDY](https://github.com/kartikdubeycoded/BUDDY) | 🟡 dev | ducted-fan aircraft rig · openscad + python solvers |
-| 9 | WebStudios | 🟡 in build | web studio — client sites & product builds |
+<table align="center" cellpadding="8" cellspacing="0">
+  <tr>
+    <td><a href="https://github.com/kartikdubeycoded/Jay"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-01-katti-os-jay-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/card-01-katti-os-jay-light.svg"><img src="./assets/card-01-katti-os-jay-dark.svg" width="396" alt="katti-os / Jay"></picture></a></td>
+    <td><a href="https://github.com/kartikdubeycoded/portfolio-ed-"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-02-portfolio-ed-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/card-02-portfolio-ed-light.svg"><img src="./assets/card-02-portfolio-ed-dark.svg" width="396" alt="portfolio-ed-"></picture></a></td>
+    <td><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-03-leads-engine-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/card-03-leads-engine-light.svg"><img src="./assets/card-03-leads-engine-dark.svg" width="396" alt="Leads Engine"></picture></td>
+  </tr>
+  <tr>
+    <td><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-04-job-search-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/card-04-job-search-light.svg"><img src="./assets/card-04-job-search-dark.svg" width="396" alt="Job Search"></picture></td>
+    <td><a href="https://github.com/kartikdubeycoded/getyour-kb-right"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-05-getyourkb-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/card-05-getyourkb-light.svg"><img src="./assets/card-05-getyourkb-dark.svg" width="396" alt="GetYourKB"></picture></a></td>
+    <td><a href="https://github.com/kartikdubeycoded/TTM-Talk-Through-Me"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-06-ttm-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/card-06-ttm-light.svg"><img src="./assets/card-06-ttm-dark.svg" width="396" alt="TTM"></picture></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/kartikdubeycoded/repair-chatbot"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-07-repair-chatbot-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/card-07-repair-chatbot-light.svg"><img src="./assets/card-07-repair-chatbot-dark.svg" width="396" alt="Repair Chatbot"></picture></a></td>
+    <td><a href="https://github.com/kartikdubeycoded/BUDDY"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-08-buddy-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/card-08-buddy-light.svg"><img src="./assets/card-08-buddy-dark.svg" width="396" alt="BUDDY"></picture></a></td>
+    <td><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-09-webstudios-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/card-09-webstudios-light.svg"><img src="./assets/card-09-webstudios-dark.svg" width="396" alt="WebStudios"></picture></td>
+  </tr>
+</table>
 
 <details>
 <summary><b>📦 more</b></summary>
 
 ```
-- ugh-boardroom      — multi-agent boardroom UI prototype
-- video pipeline     — free video generation + auto-clipping
-- ARMenuX            — AR restaurant menu (client work, private)
+- ugh-boardroom        — multi-agent boardroom UI prototype
+- video pipeline       — free video generation + auto-clipping
+- ARMenuX              — AR restaurant menu (client work, private)
 - get-your-hands-right — placeholder (reserved)
 ```
 </details>

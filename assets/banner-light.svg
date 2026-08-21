@@ -1,13 +1,28 @@
-<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1280" height="320" fill="#F6F5F1"/>
-  <rect x="0" y="318" width="1280" height="2" fill="#0E9F80" opacity="0.4"/>
-  <text x="48" y="64" font-family="JetBrains Mono, Consolas, monospace" font-size="22" fill="#6B7280">kartik@katti-os:~$</text>
-  <text x="48" y="150" font-family="JetBrains Mono, Consolas, monospace" font-size="96" font-weight="700" fill="#0E9F80">katti-os</text>
-  <text x="443" y="150" font-family="JetBrains Mono, Consolas, monospace" font-size="96" font-weight="700" fill="#12161B">
-    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
-    _
-  </text>
-  <text x="48" y="196" font-family="JetBrains Mono, Consolas, monospace" font-size="26" fill="#4B5563">&gt; building the personal operating system — ai · data · systems</text>
-  <text x="48" y="272" font-family="JetBrains Mono, Consolas, monospace" font-size="22" fill="#0E9F80">v2.6.0</text>
-  <text x="1232" y="272" text-anchor="end" font-family="JetBrains Mono, Consolas, monospace" font-size="22" fill="#6B7280">© kartik dubey · navi mumbai</text>
+<svg width="1280" height="360" viewBox="0 0 1280 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6F5F1"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <line x1="64" y1="0" x2="64" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="128" y1="0" x2="128" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="192" y1="0" x2="192" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="256" y1="0" x2="256" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="320" y1="0" x2="320" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="384" y1="0" x2="384" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="448" y1="0" x2="448" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="512" y1="0" x2="512" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="576" y1="0" x2="576" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="640" y1="0" x2="640" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="704" y1="0" x2="704" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="768" y1="0" x2="768" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="832" y1="0" x2="832" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="896" y1="0" x2="896" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="960" y1="0" x2="960" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="1024" y1="0" x2="1024" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="1088" y1="0" x2="1088" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="1152" y1="0" x2="1152" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="1216" y1="0" x2="1216" y2="336" stroke="#E7E5DF" stroke-width="1"/><line x1="0" y1="64" x2="1280" y2="64" stroke="#E7E5DF" stroke-width="1"/><line x1="0" y1="128" x2="1280" y2="128" stroke="#E7E5DF" stroke-width="1"/><line x1="0" y1="192" x2="1280" y2="192" stroke="#E7E5DF" stroke-width="1"/><line x1="0" y1="256" x2="1280" y2="256" stroke="#E7E5DF" stroke-width="1"/><line x1="0" y1="320" x2="1280" y2="320" stroke="#E7E5DF" stroke-width="1"/>
+  <text x="64" y="56" font-family="ui-monospace,Consolas,monospace" font-size="21" fill="#6B7280">kartik@katti-os:~$</text>
+  <text x="64" y="176" font-family="ui-monospace,Consolas,monospace" font-size="96" font-weight="700" fill="#0E9F80" filter="url(#glow)">katti-os</text>
+  <text x="452" y="176" font-family="ui-monospace,Consolas,monospace" font-size="96" font-weight="700" fill="#1F2328"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>_</text>
+  <text x="66" y="222" font-family="ui-monospace,Consolas,monospace" font-size="25" fill="#59636E">&gt; building the personal operating system — ai · data · systems</text>
+  <g opacity="0.85">
+    <circle cx="1000" cy="165" r="72" fill="none" stroke="#0E9F80" stroke-width="2"/>
+    <circle cx="1000" cy="165" r="88" fill="none" stroke="#0E9F80" stroke-width="1" opacity="0.35"/>
+    <circle cx="1000" cy="165" r="16" fill="#0E9F80"/>
+    <g><circle r="7" fill="#0E9F80"><animateMotion dur="9s" repeatCount="indefinite" path="M 1000 93 a 72 72 0 1 0 0 144 a 72 72 0 1 0 0 -144"/></circle></g>
+    <g><circle r="5" fill="#0E9F80" opacity="0.7"><animateMotion dur="9s" repeatCount="indefinite" begin="-4.5s" path="M 1000 93 a 72 72 0 1 0 0 144 a 72 72 0 1 0 0 -144"/></circle></g>
+    <circle cx="880" cy="80" r="3" fill="#0E9F80" opacity="0.5"/>
+    <circle cx="1120" cy="230" r="3" fill="#0E9F80" opacity="0.5"/>
+    <circle cx="860" cy="250" r="2" fill="#0E9F80" opacity="0.4"/>
+    <circle cx="1140" cy="90" r="2" fill="#0E9F80" opacity="0.4"/>
+  </g>
+  <rect y="336" width="1280" height="24" fill="#EEEDE8"/>
+  <line x1="0" y1="336" x2="1280" y2="336" stroke="#D8D6CF" stroke-width="1"/>
+  <circle cx="22" cy="348" r="4" fill="#3FB950"/>
+  <text x="36" y="353" font-family="ui-monospace,Consolas,monospace" font-size="14" fill="#6B7280">online · open to work</text>
+  <text x="1244" y="353" text-anchor="end" font-family="ui-monospace,Consolas,monospace" font-size="14" fill="#6B7280">v2.6.0 · navi mumbai</text>
 </svg>
