@@ -1,6 +1,6 @@
 <svg width="396" height="176" viewBox="0 0 396 176" xmlns="http://www.w3.org/2000/svg">
-  <rect width="396" height="176" rx="10" fill="#FFFFFF" stroke="#E4E2DC" stroke-width="1"/>
-  <text x="24" y="34" font-family="ui-monospace, Consolas, monospace" font-size="11" letter-spacing="3" fill="#C9C6BE">05</text>
+  <rect width="396" height="176" rx="10" fill="#FFFFFF" stroke="#E2E0D9" stroke-width="1"/>
+  <text x="24" y="34" font-family="ui-monospace, Consolas, monospace" font-size="11" letter-spacing="3" fill="#B9B5AC">05</text>
   <circle cx="326" cy="30" r="3.5" fill="#D29922"/>
   <text x="372" y="34" text-anchor="end" font-family="ui-monospace, Consolas, monospace" font-size="11" letter-spacing="2" fill="#6B7280">DEV</text>
   <text x="24" y="88" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="25" font-weight="600" fill="#17191C">GetYourKB</text>
@@ -8,7 +8,7 @@
   <text x="24" y="122" font-family="ui-monospace, Consolas, monospace" font-size="13" fill="#6B7280">knowledge engine — repos/papers/news</text>
   <text x="24" y="141" font-family="ui-monospace, Consolas, monospace" font-size="13" fill="#6B7280">ranked, proposals, phone digest</text>
   <line x1="24" y1="142" x2="372" y2="142" stroke="#E0DED7" stroke-width="1"/>
-  <text x="24" y="162" font-family="ui-monospace, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#C9C6BE">LLM</text>
-  <text x="72" y="162" font-family="ui-monospace, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#C9C6BE">RAG</text>
+  <text x="24" y="162" font-family="ui-monospace, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#B9B5AC">LLM</text>
+  <text x="72" y="162" font-family="ui-monospace, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#B9B5AC">RAG</text>
   <text x="372" y="162" text-anchor="end" font-family="ui-monospace, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#0E9F80">REPO →</text>
 </svg>

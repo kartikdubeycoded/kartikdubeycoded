@@ -1,5 +1,5 @@
 <svg width="396" height="176" viewBox="0 0 396 176" xmlns="http://www.w3.org/2000/svg">
-  <rect width="396" height="176" rx="10" fill="#101318" stroke="#6FE7CE" stroke-width="1.5"/>
+  <rect width="396" height="176" rx="10" fill="#0C0F14" stroke="#6FE7CE" stroke-width="1.5"/>
   <text x="24" y="34" font-family="ui-monospace, Consolas, monospace" font-size="11" letter-spacing="3" fill="#3A4452">01</text>
   <circle cx="326" cy="30" r="3.5" fill="#6FE7CE"/>
   <text x="372" y="34" text-anchor="end" font-family="ui-monospace, Consolas, monospace" font-size="11" letter-spacing="2" fill="#7A8494">CORE</text>
@@ -7,7 +7,7 @@
   <line x1="24" y1="98" x2="68" y2="98" stroke="#6FE7CE" stroke-width="2"/>
   <text x="24" y="122" font-family="ui-monospace, Consolas, monospace" font-size="13" fill="#7A8494">the personal operating system — agent</text>
   <text x="24" y="141" font-family="ui-monospace, Consolas, monospace" font-size="13" fill="#7A8494">control plane, subsystems, this README</text>
-  <line x1="24" y1="142" x2="372" y2="142" stroke="#232A35" stroke-width="1"/>
+  <line x1="24" y1="142" x2="372" y2="142" stroke="#202830" stroke-width="1"/>
   <text x="24" y="162" font-family="ui-monospace, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#3A4452">CORE</text>
   <text x="372" y="162" text-anchor="end" font-family="ui-monospace, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#6FE7CE">REPO →</text>
 </svg>
