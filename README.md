@@ -81,6 +81,7 @@ The point isn't more to read — it's **less to read and something to do.**
 | Project | What it is |
 |---|---|
 | [**BUDDY**](https://github.com/kartikdubeycoded/BUDDY) | Ducted-fan aircraft engineering rig — parametric OpenSCAD CAD + Python propulsion, structural and mass solvers |
+| [**Get Your Hands Right**](https://github.com/kartikdubeycoded/get-your-hands-right) | Inspect a 3D model with your bare hands via webcam — MediaPipe landmarks drive rotate/scale/place, plus a real-time filter stack (thermal, night vision, edges) |
 | [**Repair Chatbot**](https://github.com/kartikdubeycoded/repair-chatbot) | Offline RAG over 18,995 repair manuals — the earlier, simpler ancestor of the Agentic RAG Engine |
 | [**Portfolio**](https://github.com/kartikdubeycoded/portfolio-ed-) | Cinematic scroll-driven site — Three.js + GSAP + Vite · [live](https://portfolio-ed-a79.pages.dev) |
 | [**ugh-boardroom**](https://github.com/kartikdubeycoded/ugh-boardroom) | UI prototype: a multi-agent boardroom where four personas deliberate a decision |
