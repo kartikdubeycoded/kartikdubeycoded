@@ -70,7 +70,7 @@ citation-grounded — never invented.** Five-step quickstart; no Docker, no GPU.
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![faster--whisper](https://img.shields.io/badge/faster----whisper-412991?style=flat-square)
+![faster--whisper](https://img.shields.io/badge/faster--whisper-412991?style=flat-square)
 
 A personal knowledge engine that turns the firehose you already read into decisions you act on.
 Watches repos, papers, news and launches, ranks them against your topics, and pushes a digest to
@@ -144,7 +144,7 @@ Inspect a 3D model with your bare hands via webcam — MediaPipe landmarks drive
 Ducted-fan aircraft engineering rig — parametric OpenSCAD CAD plus Python propulsion, structural and mass solvers, behind a build-readiness gate.
 
 **[facelessVideos](https://github.com/kartikdubeycoded/facelessVideos)**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white) ![faster--whisper](https://img.shields.io/badge/faster----whisper-412991?style=flat-square)  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white) ![faster--whisper](https://img.shields.io/badge/faster--whisper-412991?style=flat-square)  
 Script → voice → B-roll → subtitles → rendered 9:16 short, end to end.
 
 **[Repair Chatbot](https://github.com/kartikdubeycoded/repair-chatbot)**  
