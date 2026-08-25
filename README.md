@@ -40,19 +40,28 @@ thing is publicly runnable. Rewrite → route → retrieve → grade over an emb
 cross-encoder reranking and an optional Neo4j cascade-fault graph. **Every answer is
 citation-grounded — never invented.** Five-step quickstart; no Docker, no GPU.
 
-### 🧠 Project Jay — local agent nervous system
+### 🧠 Project Jay — the orchestration layer
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![DeepSeek](https://img.shields.io/badge/DeepSeek%20v4-4D6BFE?style=flat-square)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 ![private](https://img.shields.io/badge/private_repo-6E7681?style=flat-square)
 
-A zero-API-cost layer that watches coding-agent logs, holds state, and escalates only genuine
-blockers — out loud. A local SLM classifies each log line into a closed status set behind a
-deterministic safety gate; state lives in a SQLite vault with rolling-summary memory. Native
-components run subprocess-isolated, so a crash costs one utterance, never the control plane.
-**55 test modules, fully offline.**
+The system I run my other projects through. Work is dispatched to rooms, each with a manager
+seat and implementation workers, and **the model is chosen per role, not per person**:
+DeepSeek v4 Pro builds and reviews, `deepseek-reasoner` manages, v4 Flash does the cheap
+graph and summarisation work. Room task envelopes are bounded, so a worker's full transcript
+never enters a manager's context — which is what stops a long build from silently becoming a
+context-window problem.
 
-> Repo is private — it ingests my personal notes. Happy to walk through the architecture on a call.
+Underneath it is a state layer that had to be made honest the hard way. A session row read
+`RUNNING` for 39 days because nobody ever wrote a new value; liveness is now **derived at read
+time**, never stored. Token spend is counted from real transcript `usage`, deduped by message
+id — one API message spans several log lines, and counting each one triples the bill.
+
+**55 test modules. Native components run subprocess-isolated**, so a crash costs one utterance
+and never the control plane.
+
+> Repo is private — it ingests my personal notes. Happy to walk through the architecture.
 
 ### 🤟 [Talk Through Me](https://github.com/kartikdubeycoded/TTM-Talk-Through-Me)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -85,11 +94,29 @@ The point isn't more to read — it's **less to read and something to do.**
 | [**Repair Chatbot**](https://github.com/kartikdubeycoded/repair-chatbot) | Offline RAG over 18,995 repair manuals — the earlier, simpler ancestor of the Agentic RAG Engine |
 | [**Portfolio**](https://github.com/kartikdubeycoded/portfolio-ed-) | Cinematic scroll-driven site — Three.js + GSAP + Vite · [live](https://portfolio-ed-a79.pages.dev) |
 | [**ugh-boardroom**](https://github.com/kartikdubeycoded/ugh-boardroom) | UI prototype: a multi-agent boardroom where four personas deliberate a decision |
-| [**getyourleadsright**](https://github.com/kartikdubeycoded/getyourleadsright) | Turns a business's public footprint into a defensible reason to make a specific call — provenance enforced in code, not good intentions |
 | [**nucdesal**](https://github.com/kartikdubeycoded/nucdesal) | Could India's planned 100 GW nuclear fleet desalinate seawater with its reject heat? A cited physics model, 415 tests, every reference number re-derived |
 | [**real-estate-splat**](https://github.com/kartikdubeycoded/real-estate-splat) | 3D walkthroughs of flats from an ordinary phone — IMU pose + monocular metric depth + fusion, then a three.js viewer |
 | [**Paper World**](https://github.com/kartikdubeycoded/paper-world) | 15 paper-trading agents on live Binance data, with a planted control group so the swarm's "learning" is falsifiable |
 | [**facelessVideos**](https://github.com/kartikdubeycoded/facelessVideos) | Script → voice → B-roll → subtitles → rendered 9:16 short, end to end |
+
+---
+
+## Private work
+
+Two engines I run on my own data. Both repos are private for the same reason Jay's is — they
+hold real people's details and my own — but the design is the interesting part and I'm glad
+to walk through either.
+
+**Get Your Leads Right** — turns a business's public digital footprint into a defensible
+reason to make a specific phone call. The rule the whole system enforces in code is *no
+receipt, no claim*: every fact carries a provenance tier and a source URL, there is no path
+that writes an attribute without one, and a fact nobody published is `null` rather than
+`false`. Deterministic scrapers with robots enforcement feed a provenance graph; a rubric
+turns signals into a fit score with a written reason. 145 tests, zero LLM calls in the
+collection layer.
+
+**Get Your Job Right** — the same idea pointed at my own pipeline: sweep listings, rank them
+against a profile, draft the application, and track what actually happened to each one.
 
 ---
 
