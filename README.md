@@ -85,6 +85,11 @@ The point isn't more to read — it's **less to read and something to do.**
 | [**Repair Chatbot**](https://github.com/kartikdubeycoded/repair-chatbot) | Offline RAG over 18,995 repair manuals — the earlier, simpler ancestor of the Agentic RAG Engine |
 | [**Portfolio**](https://github.com/kartikdubeycoded/portfolio-ed-) | Cinematic scroll-driven site — Three.js + GSAP + Vite · [live](https://portfolio-ed-a79.pages.dev) |
 | [**ugh-boardroom**](https://github.com/kartikdubeycoded/ugh-boardroom) | UI prototype: a multi-agent boardroom where four personas deliberate a decision |
+| [**getyourleadsright**](https://github.com/kartikdubeycoded/getyourleadsright) | Turns a business's public footprint into a defensible reason to make a specific call — provenance enforced in code, not good intentions |
+| [**nucdesal**](https://github.com/kartikdubeycoded/nucdesal) | Could India's planned 100 GW nuclear fleet desalinate seawater with its reject heat? A cited physics model, 415 tests, every reference number re-derived |
+| [**real-estate-splat**](https://github.com/kartikdubeycoded/real-estate-splat) | 3D walkthroughs of flats from an ordinary phone — IMU pose + monocular metric depth + fusion, then a three.js viewer |
+| [**Paper World**](https://github.com/kartikdubeycoded/paper-world) | 15 paper-trading agents on live Binance data, with a planted control group so the swarm's "learning" is falsifiable |
+| [**facelessVideos**](https://github.com/kartikdubeycoded/facelessVideos) | Script → voice → B-roll → subtitles → rendered 9:16 short, end to end |
 
 ---
 
