@@ -158,8 +158,8 @@ Cinematic scroll-driven personal site — [live](https://portfolio-ed-a79.pages.
 **[ugh-boardroom](https://github.com/kartikdubeycoded/ugh-boardroom)**  
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)  
 UI prototype: a multi-agent boardroom where four personas deliberate a decision.
----
 
+---
 ## Experience
 
 **Tata Consultancy Services** — AI Systems & Automation · *Jan – Apr 2026*
